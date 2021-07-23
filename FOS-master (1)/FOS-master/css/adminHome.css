@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#nav {
+  height: 100%;
+  min-height: 465px; 
+  background-color: rgba(0, 0, 0, 0.815);
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 0;
+  
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+#nav ul li a:hover {
+  color: #97a6b6;
+}
+
+.admin_iconBar {
+  padding-right: 10px;
+  color: #3563cb;
+}
+
+.page-header-cate {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#FBdelete{
+padding: 10px 30px;
+display: flex;
+align-items: center;
+background-color: #dc3545;
+color: white;
+border-radius: 10px;
+margin: 10px;
+text-decoration: none;
+}
+
+#FBdelete:hover{
+  background-color: rgb(155, 7, 7);
+}

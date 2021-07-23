@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.image-container{
+    background: url('../images/food.jpg') center no-repeat;
+    background-size: cover; 
+    
+}
+.form-container{
+    background-color:#fef1e1;
+    display: flex;
+    justify-content: center;
+   
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 97.5vh;
+}
+.form-box h3{
+    font: bold;
+    color: orangered; 
+    padding: 10px;
+ }
+
+ input{
+    background-color: #E2DCDC;
+    color: #343838;
+    width: 250px;
+     border: none;
+     padding: 6px 10px;
+     font-family: 'Poppins', sans-serif;
+     position: relative;
+     right: 20px;
+}
+
+
+.form-box h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=reset]{
+    background-color: #a84949;
+    color: #343838;
+}
+button{
+    margin-left: 35px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#loghead{
+    font-style: italic; 
+    text-align: center;
+    color: #fd5f00;
+    font-size: 80px;
+    text-shadow: 0 0 2px #f6f6e9;
+}
+a:link{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+a:hover {
+    color: #fd5f00;
+}
+
+.inputForm{
+padding: 5px;
+text-align: left;
+
+}
+
+label{
+    padding:0 30px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block; 
+    width: 210px; 
+    text-align: right;
+}
